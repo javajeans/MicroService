@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.lzh</groupId>
+    <artifactId>myboot</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--
+         引入spring-boot-starter-parent做parent是最好的方式，
+         但是有时我们可能要引入我们自己的parent，此时解决方式有两种：
+          1）我们自己的parent的pom.xml的parent设为spring-boot-starter-parent（没有做过验证，但是感觉可行）
+         2）使用springboot文档中的方式:见spring-boot-1.2.5-reference.pdf的第13页
+    -->
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.3.0.RELEASE</version>
+    </parent>
+
+
+    <!-- 引入实际依赖 -->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--
+             用于将应用打成可直接运行的jar（该jar就是用于生产环境中的jar）
+            值得注意的是，如果没有引用spring-boot-starter-parent做parent，
+             且采用了上述的第二种方式，这里也要做出相应的改动
+          -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
