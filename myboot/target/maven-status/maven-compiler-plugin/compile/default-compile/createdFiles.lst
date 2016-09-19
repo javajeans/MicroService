@@ -1,0 +1,11 @@
+com\lzh\firstboot\Application.class
+com\lzh\firstboot\redis\JedisClusterConfig.class
+com\lzh\firstboot\redis\MyRedisTemplate.class
+com\lzh\firstboot\common\MyConstants.class
+com\lzh\firstboot\redis\RedisProperties.class
+com\lzh\firstboot\web\UserController.class
+com\lzh\firstboot\domain\User.class
+com\lzh\firstboot\dao\UserDao.class
+com\lzh\firstboot\mapper\UserMapper.class
+com\lzh\firstboot\common\MyBatisConfig.class
+com\lzh\firstboot\service\UserService.class

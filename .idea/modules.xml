@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MicroService.iml" filepath="$PROJECT_DIR$/.idea/MicroService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myboot/myboot.iml" filepath="$PROJECT_DIR$/myboot/myboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myserviceA/myserviceA.iml" filepath="$PROJECT_DIR$/myserviceA/myserviceA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myserviceA/myserviceA-client/myserviceA-client.iml" filepath="$PROJECT_DIR$/myserviceA/myserviceA-client/myserviceA-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myserviceA/myserviceA-server/myserviceA-server.iml" filepath="$PROJECT_DIR$/myserviceA/myserviceA-server/myserviceA-server.iml" />
+    </modules>
+  </component>
+</project>
