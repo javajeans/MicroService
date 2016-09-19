@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f1b51d3-9738-4729-a894-9ab287f72527" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myboot/target/classes/com/lzh/firstboot/common/MyBatisConfig.class" afterPath="$PROJECT_DIR$/myboot/target/classes/com/lzh/firstboot/common/MyBatisConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myboot/target/classes/com/lzh/firstboot/dao/UserDao.class" afterPath="$PROJECT_DIR$/myboot/target/classes/com/lzh/firstboot/dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myboot/target/classes/com/lzh/firstboot/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/myboot/target/classes/com/lzh/firstboot/mapper/UserMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/common/MyBatisConfig.java" afterPath="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/common/MyBatisConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/dao/UserDao.java" afterPath="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/mapper/UserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myboot/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/myboot/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myboot/target/classes/application.properties" afterPath="$PROJECT_DIR$/myboot/target/classes/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/myboot/src/main/resources/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myboot/target/classes/com/lzh/firstboot/web/UserController.class" afterPath="$PROJECT_DIR$/myboot/target/classes/com/lzh/firstboot/web/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/web/UserController.java" afterPath="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/web/UserController.java" />
     </list>
     <ignored path="MicroService.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46279493">
-              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/web/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="76" selection-start-line="58" selection-start-column="76" selection-end-line="58" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.17785844">
+              <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,11 +200,11 @@
         <option value="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/myboot/pom.xml" />
         <option value="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/common/MyBatisConfig.java" />
-        <option value="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/web/UserController.java" />
         <option value="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/myboot/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/service/UserService.java" />
         <option value="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/web/UserController.java" />
       </list>
     </option>
   </component>
@@ -1230,16 +1223,16 @@
       <workItem from="1473824383791" duration="8407000" />
       <workItem from="1474165317051" duration="5907000" />
       <workItem from="1474248145000" duration="718000" />
-      <workItem from="1474256886754" duration="4689000" />
+      <workItem from="1474256886754" duration="5282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46976000" />
+    <option name="totallyTimeSpent" value="47569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1257,7 +1250,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33112583" sideWeight="0.49707174" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3387978" sideWeight="0.49479166" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3387978" sideWeight="0.49479166" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32677597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1679,16 +1672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/web/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="76" selection-start-line="58" selection-start-column="76" selection-end-line="58" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1713,8 +1696,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46279493">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myboot/src/main/java/com/lzh/firstboot/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17785844">
+          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
