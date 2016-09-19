@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * 创建时间： 2016/9/14 ${Time}.
  * UserDao的描述：${DESCRIPTION}
  */
-
+@Repository
 public class UserDao {
 
     @Autowired
