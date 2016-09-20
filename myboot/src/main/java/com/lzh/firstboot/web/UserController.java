@@ -35,9 +35,9 @@ public class UserController {
             @ApiImplicitParam(paramType = "query", name = "password", dataType = "String", required = true, value = "用户的密码", defaultValue = "123456")
     })
     @ApiResponses({
-                    @ApiResponse(code = 400, message = "请求参数没填好"),
-                    @ApiResponse(code = 404, message = "请求路径没有或页面跳转路径不对")
-            })
+            @ApiResponse(code = 400, message = "请求参数没填好"),
+            @ApiResponse(code = 404, message = "请求路径没有或页面跳转路径不对")
+    })
 
     @RequestMapping(value = "/addUser", method = RequestMethod.POST)
     public boolean addUser(@RequestParam("username") String username,
@@ -61,6 +61,21 @@ public class UserController {
         return userService.addUserWithBackId(username, password);
     }
 
+    @ApiOperation("测试事务")
+    @ApiImplicitParams({
+            @ApiImplicitParam(paramType = "header", name = "username", dataType = "String", required = true, value = "用户的姓名", defaultValue = "zhiheng.li"),
+            @ApiImplicitParam(paramType = "query", name = "password", dataType = "String", required = true, value = "用户的密码", defaultValue = "123456")
+
+    })
+    @ApiResponses({
+            @ApiResponse(code = 400, message = "请求参数没填好"),
+            @ApiResponse(code = 404, message = "请求路径没有或页面跳转路径不对")
+    })
+    @RequestMapping(value = "/testTransaction", method = RequestMethod.POST)
+    public void testTransaction(@RequestParam("username") String username,
+                                @RequestParam("password") String password) {
+        userService.testTransaction(username, password);
+    }
 //    @ApiOperation("获取用户信息")
 //    @ApiImplicitParams({
 //            @ApiImplicitParam(paramType = "header", name = "username", dataType = "String", required = true, value = "用户的姓名", defaultValue = "zhiheng.li"),

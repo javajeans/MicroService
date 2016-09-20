@@ -1,5 +1,6 @@
 package com.lzh.firstboot.dao;
 
+import com.lzh.firstboot.exception.UserException;
 import com.lzh.firstboot.mapper.UserMapper;
 import com.lzh.firstboot.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,4 +25,7 @@ public class UserDao {
         return userMapper.insertUserWithBackId(user);
     }
 
+    public void testTransactional(String username){
+                throw new UserException("测试事务");
+            }
 }
