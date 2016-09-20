@@ -1,6 +1,7 @@
 package com.lzh.firstboot.web;
 
 
+import com.lzh.firstboot.domain.Hotel;
 import com.lzh.firstboot.redis.MyRedisTemplate;
 import com.lzh.firstboot.service.UserService;
 import io.swagger.annotations.*;
@@ -12,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.lzh.firstboot.domain.User;
+
+import java.util.List;
 
 /**
  * 作者： Jonathan
@@ -75,6 +78,26 @@ public class UserController {
     public void testTransaction(@RequestParam("username") String username,
                                 @RequestParam("password") String password) {
         userService.testTransaction(username, password);
+    }
+
+
+
+    @ApiOperation("获取酒店信息,测试GETWithQueryParameter")
+    @RequestMapping(value="/getHotelWithQueryParameter",method=RequestMethod.GET)
+    public Hotel getHotel(@RequestParam("hotelname") String hotelname) {
+        return userService.getHotelFromMybootWithQueryParameter(hotelname);
+    }
+
+    @ApiOperation("获取酒店信息,测试POST")
+    @RequestMapping(value="/getHotelList",method=RequestMethod.GET)
+    public List<Hotel> getHotelList() {
+        return userService.getHotelFromMootList();
+    }
+
+    @ApiOperation("获取酒店信息,测试POST")
+    @RequestMapping(value="/getHotelListWithBody",method=RequestMethod.GET)
+    public List<Hotel> getHotelListWithBody() {
+        return userService.getHotelFromMybootListWithBody(new Hotel(888, "武林酒店"));
     }
 //    @ApiOperation("获取用户信息")
 //    @ApiImplicitParams({

@@ -5,6 +5,7 @@ D:\04-Code\02-J2EE\MicroService\myboot\src\main\java\com\lzh\firstboot\domain\Us
 D:\04-Code\02-J2EE\MicroService\myboot\src\main\java\com\lzh\firstboot\service\UserService.java
 D:\04-Code\02-J2EE\MicroService\myboot\src\main\java\com\lzh\firstboot\mapper\UserMapper.java
 D:\04-Code\02-J2EE\MicroService\myboot\src\main\java\com\lzh\firstboot\common\MyBatisConfig.java
+D:\04-Code\02-J2EE\MicroService\myboot\src\main\java\com\lzh\firstboot\exception\UserException.java
 D:\04-Code\02-J2EE\MicroService\myboot\src\main\java\com\lzh\firstboot\web\UserController.java
 D:\04-Code\02-J2EE\MicroService\myboot\src\main\java\com\lzh\firstboot\Application.java
 D:\04-Code\02-J2EE\MicroService\myboot\src\main\java\com\lzh\firstboot\redis\JedisClusterConfig.java

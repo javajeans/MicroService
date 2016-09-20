@@ -1,10 +1,14 @@
 package com.lzh.firstboot.service;
 
 import com.lzh.firstboot.dao.UserDao;
+import com.lzh.firstboot.domain.Hotel;
 import com.lzh.firstboot.domain.User;
+import com.lzh.firstboot.retrofit.api.HotelAPI;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 /**
  * 作者： Jonathan
@@ -17,6 +21,11 @@ public class UserService {
     @Autowired
     private UserDao userDao;
 
+
+    @Autowired
+    private HotelAPI hotelApi;
+    private Hotel hotel;
+
     public boolean addUser(String username, String password){
         return userDao.insertUser(username, password)==1?true:false;
     }
@@ -28,6 +37,19 @@ public class UserService {
         userDao.insertUserWithBackId(user);//该方法后，主键已经设置到user中了
         return user;
     }
+
+    public Hotel getHotelFromMybootWithQueryParameter(String hotelname){
+        return hotelApi.getHotelWithQueryParameter(hotelname);
+    }
+
+    public List<Hotel> getHotelFromMootList(){
+        return hotelApi.getHotelList();//测试post请求
+    }
+
+    public List<Hotel> getHotelFromMybootListWithBody(Hotel hotel){
+        return hotelApi.getHotelListWithBody(hotel);//测试post请求
+    }
+
     @Transactional
     public void testTransaction(String username,String password){
         System.out.println(userDao.insertUser(username,password));
