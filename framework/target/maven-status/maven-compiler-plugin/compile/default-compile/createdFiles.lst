@@ -1,4 +1,0 @@
-com\microservice\framework\consul\ConsulProperties.class
-com\microservice\framework\consul\ConsulRegisterListener.class
-com\microservice\framework\consul\ConsulConfig.class
-com\microservice\framework\MySpringApplication.class
