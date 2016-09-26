@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 /**
  * 作者： Jonathan
  * 创建时间： 2016/9/21 ${Time}.
- * ShopDao的描述：${DESCRIPTION}
+* ShopDao的描述：${DESCRIPTION}
  */
 @Repository
 public class ShopDao {
