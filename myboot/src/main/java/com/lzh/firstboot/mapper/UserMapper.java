@@ -23,4 +23,7 @@ public interface UserMapper {
      * @return
      */
     public int insertUserWithBackId(User user);
+
+
+    public User getUserByIdAndUsernameOrPassword(@Param("id") Integer id, @Param("username") String username, @Param("password") String password);
 }

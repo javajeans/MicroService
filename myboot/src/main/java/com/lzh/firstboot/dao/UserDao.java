@@ -28,4 +28,12 @@ public class UserDao {
     public void testTransactional(String username){
                 throw new UserException("测试事务");
             }
+
+
+    /**
+     * 测试 mybatis and or联查
+          */
+       public User getUserByIdAndUsernameOrPassword(Integer id, String username, String password){
+                 return userMapper.getUserByIdAndUsernameOrPassword(id, username, password);
+       }
 }

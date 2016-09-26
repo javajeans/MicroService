@@ -4,6 +4,8 @@ import com.lzh.firstboot.dao.UserDao;
 import com.lzh.firstboot.domain.Hotel;
 import com.lzh.firstboot.domain.User;
 import com.lzh.firstboot.retrofit.api.HotelAPI;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,6 +19,9 @@ import java.util.List;
  */
 @Service
 public class UserService {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(UserService.class);
+
 
     @Autowired
     private UserDao userDao;
@@ -49,6 +54,14 @@ public class UserService {
     public List<Hotel> getHotelFromMybootListWithBody(Hotel hotel){
         return hotelApi.getHotelListWithBody(hotel);//测试post请求
     }
+
+
+    public User getUserByIdAndUsernameOrPassword(Integer id, String username, String password){
+        User user = userDao.getUserByIdAndUsernameOrPassword(id, username, password);
+        LOGGER.info("getUserByIdAndUsernameOrPassword success! user:'{}'", user);
+        return user;
+    }
+
 
     @Transactional
     public void testTransaction(String username,String password){
