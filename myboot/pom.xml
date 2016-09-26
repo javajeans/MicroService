@@ -53,6 +53,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
+        <!-- aop -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
 
         <!-- mysql -->
         <dependency>
@@ -81,7 +86,6 @@
             <artifactId>mybatis-spring</artifactId>
             <version>1.2.2</version>
         </dependency>
-
 
 
         <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
@@ -121,6 +125,8 @@
             <artifactId>retrofit</artifactId>
             <version>1.9.0</version>
         </dependency>
+
+
     </dependencies>
 
     <build>
