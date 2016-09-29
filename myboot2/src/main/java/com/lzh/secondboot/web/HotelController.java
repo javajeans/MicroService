@@ -51,4 +51,10 @@ public class HotelController {
         return hotelList;
     }
 
+    @ApiOperation("获取酒店Hotel信息：getHotelInfo")
+    @RequestMapping(value="/getHoteInfo",method = RequestMethod.GET)
+    public Hotel getHotelInfo(@RequestParam("id") int id,@RequestParam("name") String name){
+        System.out.println("被调用。。。");
+        return new Hotel(id,name);
+    }
 }
