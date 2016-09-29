@@ -24,7 +24,7 @@ public class RestAdapterConfig {
          * 不能少了协议名，例如写成：localhost:8081就不行
          */
         RestAdapter adapter = new RestAdapter.Builder()
-                .setEndpoint("http://localhost:8080")
+                .setEndpoint("http://localhost:8081")
                 .build();
         return adapter;
     }

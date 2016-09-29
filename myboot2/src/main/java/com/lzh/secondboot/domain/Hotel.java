@@ -1,4 +1,4 @@
-package domain;
+package com.lzh.secondboot.domain;
 
 /**
  * 作者： Jonathan

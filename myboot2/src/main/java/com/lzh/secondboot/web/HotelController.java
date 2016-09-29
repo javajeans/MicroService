@@ -1,6 +1,6 @@
-package web;
+package com.lzh.secondboot.web;
 
-import domain.Hotel;
+import com.lzh.secondboot.domain.Hotel;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
