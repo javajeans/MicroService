@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="framework" />
         <module name="myboot" />
+        <module name="myboot2" />
         <module name="myserviceA-client" />
         <module name="myserviceA-server" />
       </profile>
@@ -31,6 +32,7 @@
     <bytecodeTargetLevel>
       <module name="framework" target="1.8" />
       <module name="myboot" target="1.6" />
+      <module name="myboot2" target="1.8" />
       <module name="myserviceA" target="1.8" />
       <module name="myserviceA-client" target="1.8" />
       <module name="myserviceA-server" target="1.8" />

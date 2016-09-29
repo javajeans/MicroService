@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/framework" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myboot2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myserviceA" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myserviceA/myserviceA-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myserviceA/myserviceA-server" charset="UTF-8" />

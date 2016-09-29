@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/MicroService.iml" filepath="$PROJECT_DIR$/.idea/MicroService.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/myboot/myboot.iml" filepath="$PROJECT_DIR$/myboot/myboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myboot2/myboot2.iml" filepath="$PROJECT_DIR$/myboot2/myboot2.iml" />
       <module fileurl="file://$PROJECT_DIR$/myserviceA/myserviceA.iml" filepath="$PROJECT_DIR$/myserviceA/myserviceA.iml" />
       <module fileurl="file://$PROJECT_DIR$/myserviceA/myserviceA-client/myserviceA-client.iml" filepath="$PROJECT_DIR$/myserviceA/myserviceA-client/myserviceA-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/myserviceA/myserviceA-server/myserviceA-server.iml" filepath="$PROJECT_DIR$/myserviceA/myserviceA-server/myserviceA-server.iml" />

@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 作者： Jonathan
@@ -51,4 +52,14 @@ public class HotelController {
         return hotelList;
     }
 
+    @ApiOperation("获取酒店Hotel信息：getHotelInfo")
+    @RequestMapping(value="/getHotelInfo",method=RequestMethod.GET)
+    public Hotel getHotelInfo(@RequestParam("id") int id, @RequestParam("name") String name) {
+//        try {
+//            TimeUnit.MILLISECONDS.sleep(2000);//用于测试超时
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+        return new Hotel(id, name);
+    }
 }
