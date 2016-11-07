@@ -216,6 +216,21 @@
             <version>2.22.2</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.netflix.archaius/archaius-core -->
+        <dependency>
+            <groupId>com.netflix.archaius</groupId>
+            <artifactId>archaius-core</artifactId>
+            <version>0.7.4</version>
+        </dependency>
+
+        <!-- 动态配置，archaius底层 -->
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+            <version>1.8</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
